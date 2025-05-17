@@ -1,0 +1,8 @@
+package sj;
+
+import javax.servlet.http.HttpServlet;
+
+public class S2J_Servlet extends HttpServlet
+{
+
+}

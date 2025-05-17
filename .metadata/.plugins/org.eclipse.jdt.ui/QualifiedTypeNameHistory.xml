@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="kadai_015.Car_Chapter15"/>
+    <fullyQualifiedTypeName name="kadai_018.Kato_Chapter18"/>
+    <fullyQualifiedTypeName name="kadai_018.KatoTaro_Chapter18"/>
+    <fullyQualifiedTypeName name="kadai_018.KatoIchiro_Chapter18"/>
+    <fullyQualifiedTypeName name="kadai_018.KatoHanako_Chapter18"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="kadai_021.Dictionary_Chapter21"/>
+    <fullyQualifiedTypeName name="kadai_028.Jyanken_Chapter28"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+    <fullyQualifiedTypeName name="javax.servlet.ServletException"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+</qualifiedTypeNameHistroy>
