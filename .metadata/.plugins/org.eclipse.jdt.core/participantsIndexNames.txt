@@ -1,5 +1,9 @@
 INDEX VERSION 1.134
 C:\Users\Yu-Ma_WPC\Terakoya_Study\Eclipse_Workspace_Tera58\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\486056813.index
 \kadai_link_tag\WEB-INF\src
+C:\Users\Yu-Ma_WPC\Terakoya_Study\Eclipse_Workspace_Tera58\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3199406648.index
+\web_tutorial\WEB-INF\src
+C:\Users\Yu-Ma_WPC\Terakoya_Study\Eclipse_Workspace_Tera58\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\916840547.index
+\web_tutorial\WEB-INF\src
 C:\Users\Yu-Ma_WPC\Terakoya_Study\Eclipse_Workspace_Tera58\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2670845720.index
 \servlet_jsp\WEB-INF\src
