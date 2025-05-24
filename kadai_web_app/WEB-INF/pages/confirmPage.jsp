@@ -15,7 +15,7 @@
                 <th>入力内容</th>
             </tr>
             <tr>
-                <td>指名</td>
+                <td>氏名</td>
                 <td>${name}</td>
             </tr>
             <tr>
