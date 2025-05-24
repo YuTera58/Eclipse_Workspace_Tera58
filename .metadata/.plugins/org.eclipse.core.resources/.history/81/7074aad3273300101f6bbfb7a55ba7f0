@@ -1,8 +1,0 @@
-package sj;
-
-import javax.servlet.http.HttpServlet;
-
-public class CookieServlet extends HttpServlet
-{
-
-}

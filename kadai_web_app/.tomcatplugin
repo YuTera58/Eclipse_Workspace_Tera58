@@ -6,8 +6,8 @@
     <reloadable>true</reloadable>
     <redirectLogger>false</redirectLogger>
     <updateXml>true</updateXml>
-    <warLocation>C:\pleiades\2023-12\tomcat\9\webapps\web_tutorial.war</warLocation>
+    <warLocation></warLocation>
     <extraInfo></extraInfo>
     <mavenClasspath>false</mavenClasspath>
-    <webPath>/web_tutorial</webPath>
+    <webPath>/kadai_web_app</webPath>
 </tomcatProjectProperties>

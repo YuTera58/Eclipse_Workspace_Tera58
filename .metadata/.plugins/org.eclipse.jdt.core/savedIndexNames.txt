@@ -1,14 +1,7 @@
 INDEX VERSION 1.134+C:\Users\Yu-Ma_WPC\Terakoya_Study\Eclipse_Workspace_Tera58\.metadata\.plugins\org.eclipse.jdt.core
-3785486791.index
-1020567424.index
-1015328028.index
-3139332376.index
-2817881910.index
-2145205572.index
 1865797976.index
-617287208.index
-916840547.index
-824199086.index
-3198834671.index
-3338193792.index
 486056813.index
+1015328028.index
+1020567424.index
+321116356.index
+916840547.index
