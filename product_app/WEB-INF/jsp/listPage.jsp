@@ -1,5 +1,6 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
 <%@ page import="java.util.ArrayList"%>
+<%@ page import="java.util.Objects"%>
 <%@ page import="data.ProductDto"%>
 <!DOCTYPE html>
 <html lang="ja">
@@ -19,9 +20,25 @@
         </nav>
     </header>
     <main>
+        <%
+        // 最後に送信されたデータを取得
+        // 検索キーワード
+        String keyword = request.getParameter("keyword");
+        keyword = Objects.toString(keyword, ""); // NULLは空文字に置き換え
+
+        // 並べ替え方向
+        String order = request.getParameter("order");
+        order = Objects.toString(order, ""); // NULLは空文字に置き換え
+        %>
         <article class="products">
             <h1>商品一覧</h1>
             <%
+            // 成功メッセージがあれば表示
+            String successMessage = (String) request.getAttribute("successMessage");
+            if( successMessage != null && !successMessage.isEmpty() ) {
+                out.println("<p class='success'>" + successMessage + "</p>");
+            }
+            
             // 失敗メッセージがあれば表示
             String failureMessage = (String) request.getAttribute("failureMessage");
             if (failureMessage != null && !failureMessage.isEmpty()) {
@@ -30,7 +47,16 @@
             %>
             <div class="products-ui">
                 <div>
-                    <%-- ここに並べ替えボタンと検索ボックスを作成する --%>
+                    <%-- 並べ替えボタンと検索ボックスを作成 --%>
+                    <a href="<%=request.getContextPath()%>/list?order=desc&keyword=<%=keyword%>">
+                        <img src="images/desc.png" alt="降順に並べ替え" class="sort-img">
+                    </a>
+                    <a href="<%=request.getContextPath()%>/list?order=asc&keyword=<%=keyword%>">
+                        <img src="images/asc.png" alt="昇順に並べ替え" class="sort-img">
+                    </a>
+                    <form action="<%=request.getContextPath()%>/list" method="get" class="search-form">
+                        <input type="hidden" name="order" value="<%=order%>"> <input type="text" class="search-box" placeholder="商品名で検索" name="keyword" value="<%=keyword%>">
+                    </form>
                 </div>
                 <a href="<%= request.getContextPath() %>/register" class="btn">商品登録</a>
             </div>
